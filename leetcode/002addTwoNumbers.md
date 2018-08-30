@@ -22,17 +22,18 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 5. 整体循环结束之后，再次判断是否有进位
 
 # 完整代码
+
 	# Definition for singly-linked list.
 	class ListNode(object):
-		def __init__(self, x):
-			self.val = x
-			self.next = None
-
-
+	    def __init__(self, x):
+	        self.val = x
+	        self.next = None
+	
+	
 	class Solution(object):
-		def addTwoNumbers(self, l1, l2):
-			 """
-			 :type l1: ListNode
+	    def addTwoNumbers(self, l1, l2):
+	        """
+	        :type l1: ListNode
 	        :type l2: ListNode
 	        :rtype: ListNode
 	        """
@@ -87,3 +88,4 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 	    while r is not None:
 	        print r.val
 	        r = r.next
+
