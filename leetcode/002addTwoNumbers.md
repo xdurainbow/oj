@@ -31,8 +31,8 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 	class Solution(object):
 		def addTwoNumbers(self, l1, l2):
-			"""
-			:type l1: ListNode
+			 """
+			 :type l1: ListNode
 	        :type l2: ListNode
 	        :rtype: ListNode
 	        """
